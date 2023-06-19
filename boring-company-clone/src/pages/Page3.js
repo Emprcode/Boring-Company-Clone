@@ -1,5 +1,4 @@
 import React from 'react'
-import {Row} from 'react-bootstrap'
 
 export const Page3 = () => {
   return (
