@@ -4,8 +4,9 @@ import { Row } from 'react-bootstrap'
 export const Page2 = () => {
   return (
     <div className='img2'>
-     <div className='information1 p-4'>
-  <div className='abc' >
+     <div className='information1'>
+        
+  <div className='p-4' >
 <h2 className='fw-bold'>WHY TUNNELS?</h2>
 
 <div>
@@ -39,6 +40,7 @@ city; no matter how large a city grows, more levels of tunnels can be added.
 
 
   </div>
+
 </div>
    
     </div>
