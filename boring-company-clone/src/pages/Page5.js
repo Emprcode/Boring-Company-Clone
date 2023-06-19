@@ -1,28 +1,28 @@
 
-import react from 'react'
-
+import React from 'react'
+import { Footer } from './Footer';
 export const Page5 = () => {
   return (
     <div className='image5'>
-    <div className='information1'>
+    <div className='information1 mb-5'>
         
         <div className='p-4' >
-      <h2 className='fw-bold'>MEET PRUFROCK</h2>
+      <h2 className='fw-bold'>JOIN US</h2>
       
       <div>
-      <p>Prufrock is designed to construct mega-infrastructure projects in a matter of  </p>
-      <p>weeks instead of years </p>
-      </div>
-      
-      <div className='mt-5'>
-      
-      <p> Prufrock is designed to tunnel at a speed of 1 mile per week, which is 6 times  </p>
-      <p> faster than The Boring Company's previous generation TBM (Godot-Plus). This is  </p>
-      <p> still 4-5 times slower than a garden snail...but Prufrock is catching up!  </p>
+      <p>We're looking for talented individuals ready to get their </p>
+      <p>hands dirty to make a meaningful impact that will last for </p>
+     <p> generations to come. We are an equal opportunity   </p>
+      <p> employer offering competitive salaries, comprehensive   </p>
+      <p> health benefits, and equity packages. </p>
   
       </div>
+      <div
+     
+     className='button mt-5'>CAREERS</div>
   </div>
   </div>
+  <Footer/>
 </div>
   );
 }

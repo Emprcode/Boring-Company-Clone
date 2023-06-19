@@ -65,11 +65,44 @@ align-items: flex-end;
 }
 .image5{
   background: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)),url(https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618426023431-JY0VJ7XCQUYY76QO9D1H/9af6c204fe596ec3bfe3cdeeb7294f56.jpg?format=2500w);
-  min-height: 100vh;
+  min-height: 120vh;
   background-size: cover;
 
   background-attachment: fixed;
+  opacity: 1;
 }
 
+
+.footer{
+  margin-top: 7rem;
+
+
+}
+
+.button{
+  width: 13rem;
+  height: 3rem;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.button:hover{
+  border-color: greenyellow;
+}
+
+.line {
+  width: 90vw;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5));;
+}
 
 

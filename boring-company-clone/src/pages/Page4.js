@@ -1,5 +1,5 @@
 
-import react from 'react'
+import React from 'react'
 
 export const Page4 = () => {
   return (
@@ -21,6 +21,9 @@ export const Page4 = () => {
       <p> still 4-5 times slower than a garden snail...but Prufrock is catching up!  </p>
   
       </div>
+      <div
+     
+     className='button mt-5'>LEARN MORE</div>
   </div>
   </div>
 </div>

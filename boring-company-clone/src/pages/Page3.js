@@ -1,4 +1,4 @@
-
+import React from 'react'
 import {Row} from 'react-bootstrap'
 
 export const Page3 = () => {
@@ -21,6 +21,9 @@ export const Page3 = () => {
       <p> operating Loop system. </p>
   
       </div>
+      <div
+     
+     className='button mt-5'>LEARN MORE</div>
   </div>
   </div>
 </div>
