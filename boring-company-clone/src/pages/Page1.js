@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo.png'
 import {Row} from 'react-bootstrap'
 
-export const Header = () => {
+export const Page1 = () => {
   return (
     <div className='main'>
     <Navbar bg="" expand="md">
