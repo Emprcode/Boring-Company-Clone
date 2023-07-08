@@ -4,7 +4,7 @@ import { Footer } from './Footer';
 export const Page5 = () => {
   return (
     <div className='image5'>
-    <div className='information1 mb-5'>
+    <div className='information1 mb-5 mx-5'>
         
         <div className='p-4' >
       <h2 className='fw-bold'>JOIN US</h2>

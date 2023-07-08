@@ -4,7 +4,7 @@ import React from 'react'
 export const Page4 = () => {
   return (
     <div className='image4'>
-    <div className='information1'>
+    <div className='information1 mx-5'>
         
         <div className='p-4' >
       <h2 className='fw-bold'>MEET PRUFROCK</h2>

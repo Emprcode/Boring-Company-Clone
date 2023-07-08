@@ -3,7 +3,7 @@ import React from 'react'
 export const Page2 = () => {
   return (
     <div className='img2'>
-     <div className='information1'>
+     <div className='information1 mx-5'>
         
   <div className='p-4' >
 <h2 className='fw-bold'>WHY TUNNELS?</h2>
