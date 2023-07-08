@@ -3,36 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo.png'
 import {Row} from 'react-bootstrap'
+import { Header } from './Header';
 
 export const Page1 = () => {
   return (
+    <>
     <div className='main'>
-    <Navbar bg="" expand="md">
-      <Container>
-        <Navbar.Brand href="#home">
-<img src={logo} alt="logo" width='120px' />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-
-          <Nav className="me-auto">
-            <Nav.Link className='text-light fw-bold' href="#home">TUNNELS</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">PROJECTS</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">PRODUCTS</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">PRUFROCK</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">LOOP</Nav.Link>
-           
-          </Nav>
-          <Nav className="ms-auto">
-            <Nav.Link className='text-light fw-bold' href="#home">CAREERS</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">FLAMETHROWER</Nav.Link>
-            <Nav.Link className='text-light fw-bold' href="#link">BURNT HAIR</Nav.Link>
-           
-          </Nav>
-        
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Header/>
+  
 <Row className='info'>
   <div className='information'>
 <div>
@@ -52,6 +30,7 @@ The mission: solve traffic, enable rapid point-to-point transportation and trans
 </Row>
 
     </div>
+    </>
   );
 }
 
