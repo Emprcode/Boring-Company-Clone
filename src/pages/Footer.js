@@ -14,7 +14,7 @@ export const Footer = () => {
 
      <div
      
-       className='button mt-5' onClick={scrollToTop}>RETURN TO TOP</div>
+       className='button fw-bold mt-5' onClick={scrollToTop}>RETURN TO TOP</div>
        </div>
 
        <div class="d-flex justify-content-center mt-5">
