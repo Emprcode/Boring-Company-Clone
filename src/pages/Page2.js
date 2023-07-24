@@ -3,9 +3,9 @@ import React from 'react'
 export const Page2 = () => {
   return (
     <div className='img2'>
-     <div className='information1 mx-5'>
+     <div className='information1'>
         
-  <div className='p-4' >
+  <div className='p-5' >
 <h2 className='fw-bold'>WHY TUNNELS?</h2>
 
 <div>

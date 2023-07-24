@@ -22,7 +22,7 @@ export const Footer = () => {
         <span className='line'></span>
        </div>
 
-<div className='d-flex justify-content-center mt-5 gap-3'>
+<div className='d-flex justify-content-center flex-wrap mt-5 gap-3'>
 <div>CONTACT</div>
 <div>TWITTER</div>
 <div>LINKEDIN</div>

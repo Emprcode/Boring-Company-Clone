@@ -3,9 +3,9 @@ import React from 'react'
 export const Page3 = () => {
   return (
     <div className='image3'>
-    <div className='information1 mx-5'>
+    <div className='information1'>
         
-        <div className='p-4' >
+        <div className='p-5' >
       <h2 className='fw-bold'>INTRODUCING LOOP</h2>
       
       <div>
